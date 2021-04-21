@@ -1,0 +1,244 @@
+
+
+.topnav {
+  
+  overflow: hidden;
+}
+
+.topnav a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+
+
+.header1 {
+  padding: 30px; 
+  text-align: center; 
+  
+  color: white; 
+ 
+}
+
+.welcomeimage {
+	
+  height: 62;
+  width: 62%;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-container {
+  display: table;
+  width: 100%;
+  height: auto;
+ 
+}
+.col {
+  display: table-cell;
+  width: 33%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  
+  overflow:auto;
+}
+
+.container{
+  
+  overflow:auto;
+  align: right;
+}
+
+nav{float:right;}
+
+.logo img{float:left;}
+
+ul li{
+  display: inline-block; padding:10px;
+  font-size:20px; font-family:raleway;
+}
+
+ul li:hover{
+  color:orange;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.mecolumn {
+	text-align: right;
+}
+
+.card {
+	
+	justify-content: right;
+	
+}
+
+.gamecontainer {
+	
+	width: 800px;
+	max-width: 80%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 2px;
+	
+}
+
+.btn-grid {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	gap: 10px;
+	margin-top: 20px;
+	
+}
+
+.btn {
+
+	background-color: hsl(200, 100%, 50%);
+	border: 1px solid hsl(200, 100%, 30%);
+	border-radius: 5px;
+	padding: 5px 10px;
+	color: orange;
+	
+}
+
+.btn:hover {
+	
+	border-color: black;
+	
+}
+
+   #song {
+                position: absolute;
+                top: 935px;
+                left: 100px;
+                font-size: 12px;
+            }
+			
+			
+			
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.contactcontainer {
+  border-radius: 5px;
+  background-color: #FF4500;
+  padding: 20px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.columnA {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.rowA:after {
+  content: "";
+  display: table;
+  clear: both;
+}
